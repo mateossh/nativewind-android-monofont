@@ -13,6 +13,10 @@ export const EditScreenInfo = ({ path }: { path: string }) => {
           <Text>{path}</Text>
         </View>
         <Text className={styles.getStartedText}>{description}</Text>
+
+        <Text className="mt-8 font-mono">monospace text</Text>
+        <Text className="mt-2 font-sans">sans-serif text</Text>
+        <Text className="mt-2 font-serif">serif text</Text>
       </View>
     </View>
   );
